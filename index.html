@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Bin2Dec/assets/css/style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="heading">Перевод из двоичной системы счисления в десятичную</h1>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section-input">
+            <div class="container">
+                <div class="conver-area">
+                    <input type="text" class="input-number" id="input-id" maxlength="8">
+                    <button class="btn-convert" id="covertToDecimalNumber" onclick="funcCovertToDecimalNumber()">Конвертировать в дестичное число</button>
+                    <button class="btn-convert" id="convertTOBinaryNumber" onclick="funcConvertTOBinaryNumber()">Конвертировать в двоичное число</button>
+                    <div id="output" class="output-value"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/Bin2Dec/assets/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(35,23,255);
+    background: linear-gradient(153deg, rgba(35,23,255,1) 0%, rgba(140,236,255,1) 100%);
+
+    width: 100vw;
+    height: 100vh;
+
+    color: white;
+
+    font-family: 'Oswald';
+}
+
+.header {
+    padding-top: 15em;
+    text-align: center;
+}
+
+.container {
+    padding: 0 200px;
+}
+.section-input {
+    padding-top: 70px;
+}
+.conver-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    row-gap: 50px;
+}
+/* .input-number {
+    border-width: 4px;
+    border-style: solid;
+  } 
+*/
+.input-number {
+    padding: 20px 30px;
+
+    font-size: 20px;
+
+    outline: none;
+
+    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+    border-width: 3px;
+    border-style: solid;
+}
+.btn-convert {
+    background-color: white;
+
+    padding: 10px 0;
+
+    width: 50%;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 20px;
+}
+.btn-convert:active {
+    background-color: #b4b4b4;
+}
+
+.output-value {
+    font-size: 30px;
+    font-weight: bold;
+}
