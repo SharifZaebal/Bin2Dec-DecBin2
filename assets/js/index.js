@@ -17,7 +17,7 @@ function funcCovertToDecimalNumber(){
 
 function funcConvertTOBinaryNumber() {
     const input = document.getElementById("input-id").value
-    let accumulator = parseInt(input, 10)
+    let accumulator = parseInt(input, 2)
 
     const binaryValue = accumulator.toString(2);
 
